@@ -47,7 +47,7 @@ const dig = (pathName, depth, process) => {
     fs.readdirSync(pathName).forEach(val => {
       dig(pathName + '/' + val, depth - 1, process);
     });
-  } else if (fs.statSync(pathName).isFile() && !pathName.startsWith('.')) {
+  } else if (fs.statSync(pathName).isFile() && !path.basename(pathName).startsWith('.')) {
     process(pathName);
   }
 };
