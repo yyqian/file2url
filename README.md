@@ -21,4 +21,4 @@
 ![ss.jpg](http://cdn.yyqian.com/201604181255-FuyxlbTOMYTV4It7CAKqbB8Typas?imageView2/2/w/800/h/600)
 ```
 
-也可以根据需要使用 bash script 将输出复制到粘贴板, 见 upload.sh 示例脚本.
+也可以根据需要使用 pbcopy 将输出复制到粘贴板, 参考 scripts 中的脚本.
