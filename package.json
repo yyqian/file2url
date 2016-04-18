@@ -1,0 +1,22 @@
+{
+  "name": "qiniu-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyqian/qiniu-upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyqian/qiniu-upload/issues"
+  },
+  "homepage": "https://github.com/yyqian/qiniu-upload#readme",
+  "dependencies": {
+    "qiniu": "^6.1.9"
+  }
+}
