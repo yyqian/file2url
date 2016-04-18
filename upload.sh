@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-node upload.js $@ | pbcopy
+node ~/work/qiniu-upload/upload.js $@ | tee -a ~/qiniu-upload.log | pbcopy
